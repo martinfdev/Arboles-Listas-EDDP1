@@ -8,6 +8,8 @@
       <itemPath>LinkedDoubleList.h</itemPath>
       <itemPath>LinkedList.h</itemPath>
       <itemPath>Menu.h</itemPath>
+      <itemPath>NodoPila.h</itemPath>
+      <itemPath>Stack.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -20,6 +22,8 @@
       <itemPath>LinkedDoubleList.cpp</itemPath>
       <itemPath>LinkedList.cpp</itemPath>
       <itemPath>Menu.cpp</itemPath>
+      <itemPath>NodoPila.cpp</itemPath>
+      <itemPath>Stack.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -60,6 +64,14 @@
       </item>
       <item path="Menu.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="NodoPila.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoPila.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -98,6 +110,14 @@
       <item path="Menu.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoPila.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoPila.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Stack.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

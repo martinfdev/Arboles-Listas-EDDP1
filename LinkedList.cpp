@@ -8,6 +8,8 @@
 #include "LinkedList.h"
 
 LinkedList::LinkedList() {
+    primero = NULL;
+    ultimo = NULL;
 }
 
 void LinkedList::insertarListaSimpleInicio(std::string nombreArchivo, std::string pathFile) {
@@ -20,7 +22,7 @@ void LinkedList::insertarListaSimpleInicio(std::string nombreArchivo, std::strin
 void LinkedList::insertarListaSimpleFinal(std::string nombreArchivo, std::string pathFile) {
     Nodo* aux = new Nodo(nombreArchivo, pathFile);
     if (vacioListaSimple()) {
-        primero = ultimo  = aux;   
+        primero = ultimo = aux;
     } else {
         ultimo->setNext(aux);
         ultimo = aux;
@@ -37,6 +39,32 @@ void LinkedList::insertarListaCircularFinal(std::string nombreArchivo, std::stri
         ultimo->setNext(aux);
         ultimo = aux;
     }
+}
+
+void LinkedList::insertarListaSimpleOrdenada(std::string palabraBuscar, std::string palabraReemplazar, bool busqueda) {
+    Nodo* nuevo = new Nodo(palabraBuscar, palabraReemplazar);
+    if (busqueda) {//ordenar por palabras buscadas
+        if (vacioListaSimple() || palabraBuscar.compare(primero->getNombreArchivo()) < 0) {
+            nuevo->setNext(primero);
+            primero = nuevo;
+          //  std::cout<<palabraBuscar<<"\n";
+          //  std::cout << palabraBuscar.compare(primero->getNombreArchivo()) << "\t" << palabraBuscar << "\t<\t" << primero->getNombreArchivo() << "\n";
+        } else {
+            Nodo* aux = primero;
+            while (aux->getNext() != NULL && aux->getNext()->getNombreArchivo().compare(palabraBuscar) < 0) {
+            //    std::cout<<palabraBuscar<<"\n";
+                aux = aux->getNext();
+            }
+            if (aux->getNext()!=NULL) {
+                    nuevo->setNext(aux->getNext());
+                }
+            aux->setNext(nuevo);
+        }
+
+    } else {//ordenar por lapabras reemplazadas
+
+    }
+
 }
 
 void LinkedList::showSimple() {

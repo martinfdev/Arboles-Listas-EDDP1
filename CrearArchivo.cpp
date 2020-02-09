@@ -16,8 +16,6 @@
 CrearArchivo::CrearArchivo() {
 }
 
-CrearArchivo::CrearArchivo(const CrearArchivo& orig) {
-}
 
 CrearArchivo::~CrearArchivo() {
 }

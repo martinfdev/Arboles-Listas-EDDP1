@@ -16,17 +16,18 @@ void LinkedDoubleList::insertarInicio(Nodo* n, char caracter) {
     if (primero == NULL) {
         primero = aux;
         ultimo =aux;
-      
+        size++;
     }else if (n==primero) {
         aux->setSiguiente(primero);
         primero->setAntrior(aux);
         primero = aux;
-      
+        size++;
     }else{
         n->getAnterior()->setSiguiente(aux);
         aux->setAntrior(n->getAnterior());
         n->setAntrior(aux);
         aux->setSiguiente(n);
+        size++;
     }
 }
 
@@ -35,15 +36,18 @@ void LinkedDoubleList::insertarFinal(Nodo* n, char caracter) {
     if (ultimo==NULL) {
         ultimo=aux;
         primero=aux;
+        size++;
     }else if (ultimo == n) {
         aux->setAntrior(ultimo);
         ultimo->setSiguiente(aux);
         ultimo=aux;
+        size++;
     }else{
         n->getSiguiente()->setAntrior(aux);
         aux->setSiguiente(n->getSiguiente());
         n->setSiguiente(aux);
         aux->setAntrior(n);
+        size++;
     }
 }
 
@@ -62,15 +66,19 @@ void LinkedDoubleList::borrarNodo(Nodo* n) {
     }else if (primero==ultimo) {
         primero=NULL;
         ultimo=NULL;
+        size--;
     }else if (primero==n) {
         primero = primero->getSiguiente();
         primero->setAntrior(NULL);
+        size--;
     }else if (ultimo == n) {
         ultimo = ultimo->getAnterior();
         ultimo->setSiguiente(NULL);
+        size--;
     }else{
         n->getAnterior()->setSiguiente(n->getSiguiente());
         n->getSiguiente()->setAntrior(n->getAnterior());
+        size--;
     }
 }
 
@@ -109,6 +117,11 @@ bool LinkedDoubleList::isEmpty() {
     }
     return false;
 }
+
+int LinkedDoubleList::getSize() {
+    return size;
+}
+
 
 void LinkedDoubleList::show() {
     if (isEmpty()) {

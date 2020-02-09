@@ -39,6 +39,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/LinkedDoubleList.o \
 	${OBJECTDIR}/LinkedList.o \
 	${OBJECTDIR}/Menu.o \
+	${OBJECTDIR}/NodoPila.o \
+	${OBJECTDIR}/Stack.o \
 	${OBJECTDIR}/main.o
 
 
@@ -85,6 +87,16 @@ ${OBJECTDIR}/Menu.o: Menu.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Menu.o Menu.cpp
+
+${OBJECTDIR}/NodoPila.o: NodoPila.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/NodoPila.o NodoPila.cpp
+
+${OBJECTDIR}/Stack.o: Stack.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Stack.o Stack.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}

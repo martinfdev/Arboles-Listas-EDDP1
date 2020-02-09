@@ -57,6 +57,7 @@ public:
     void insertarListaSimpleInicio(std::string, std::string);
     void insertarListaSimpleFinal(std::string, std::string);
     void insertarListaCircularFinal(std::string, std::string);
+    void insertarListaSimpleOrdenada(std::string, std::string, bool);
     bool vacioListaSimple();
     bool vacioListaCircular();
     void borrar(Nodo*);
@@ -66,8 +67,8 @@ public:
     virtual ~LinkedList();
     
 private:
-    Nodo* primero;//variable para las lista simple
-    Nodo* ultimo;//variable que lleva el puntero para la entrada a la lista circular
+    Nodo* primero;//puntero para las lista simple
+    Nodo* ultimo;//puntero que lleva el puntero para la entrada a la lista circular
 };
 
 #endif /* LINKEDLIST_H */

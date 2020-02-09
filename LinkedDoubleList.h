@@ -13,26 +13,34 @@ class LinkedDoubleList {
     class Nodo {
     public:
 
-        Nodo(char caracter){
+        Nodo(char caracter) {
             this->caracter = caracter;
-        }
-        void setSiguiente(Nodo* siguiente){
-            this->siguiente =siguiente;
         }
 
-        Nodo* getSiguiente(){return siguiente;}
-        
-        void setAntrior(Nodo* anterior){
+        void setSiguiente(Nodo* siguiente) {
+            this->siguiente = siguiente;
+        }
+
+        Nodo* getSiguiente() {
+            return siguiente;
+        }
+
+        void setAntrior(Nodo* anterior) {
             this->anterior = anterior;
         }
-        Nodo* getAnterior(){return anterior;}
-        
-        void setCaracter(char caracter){
+
+        Nodo* getAnterior() {
+            return anterior;
+        }
+
+        void setCaracter(char caracter) {
             this->caracter = caracter;
         }
-        
-        char getCaracter(){return caracter;}
-        
+
+        char getCaracter() {
+            return caracter;
+        }
+
     private:
         char caracter;
         Nodo* siguiente;
@@ -42,10 +50,13 @@ class LinkedDoubleList {
 public:
     LinkedDoubleList();
     void insertarPrimero(char);
-   // void insertar(char);
+    // void insertar(char);
     void insertarUltimo(char);
     //void insertarFinal(char);
     void borrarParametro(char);
+    void insertarPorPosicion(); //pendiente de impelementar
+    void eliminarPorPosicion(); //pendiente de implementar
+    int getSize();
     void borrarInicio();
     void borrarFinal();
     Nodo* buscar(char);
@@ -53,6 +64,7 @@ public:
     bool isEmpty();
     virtual ~LinkedDoubleList();
 private:
+    long size;
     Nodo* primero;
     Nodo* ultimo;
     void insertarInicio(Nodo*, char);

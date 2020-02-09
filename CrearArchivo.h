@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
  * File:   CrearArchivo.h
  * Author: pedro
@@ -13,13 +7,14 @@
 
 #ifndef CREARARCHIVO_H
 #define CREARARCHIVO_H
-
+#include <fstream>
 class CrearArchivo {
+
 public:
     CrearArchivo();
-    CrearArchivo(const CrearArchivo& orig);
     virtual ~CrearArchivo();
 private:
+    
 
 };
 
