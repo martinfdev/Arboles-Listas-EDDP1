@@ -6,6 +6,7 @@
                    projectFiles="true">
       <itemPath>CrearArchivo.h</itemPath>
       <itemPath>LinkedDoubleList.h</itemPath>
+      <itemPath>LinkedList.h</itemPath>
       <itemPath>Menu.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -17,6 +18,7 @@
                    projectFiles="true">
       <itemPath>CrearArchivo.cpp</itemPath>
       <itemPath>LinkedDoubleList.cpp</itemPath>
+      <itemPath>LinkedList.cpp</itemPath>
       <itemPath>Menu.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -49,6 +51,10 @@
       <item path="LinkedDoubleList.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="LinkedDoubleList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkedList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LinkedList.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Menu.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -84,6 +90,10 @@
       <item path="LinkedDoubleList.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="LinkedDoubleList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkedList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LinkedList.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Menu.cpp" ex="false" tool="1" flavor2="0">
       </item>

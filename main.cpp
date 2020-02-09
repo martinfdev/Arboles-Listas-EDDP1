@@ -9,6 +9,8 @@
 #include <ncurses.h>
 #include "Menu.h"
 #include "LinkedDoubleList.h"
+#include "LinkedList.h"
+
 
 /*
  * 
@@ -41,6 +43,19 @@ int main(int argc, char** argv) {
     listadoble->borrarParametro('9');
     listadoble->show();
     
+    LinkedList* listSimple = new LinkedList();
+    listSimple->insertarListaSimpleFinal("Archivo1", "Ruta1");
+    listSimple->insertarListaSimpleFinal("Archivo2", "Ruta2");
+    listSimple->insertarListaSimpleFinal("Archivo3", "Ruta3");
+    listSimple->showSimple();
+    std::cout<<"=======================\n";
+    LinkedList* listaCircular =  new LinkedList;
+    listaCircular->insertarListaCircularFinal("Archivo4", "Ruta4");
+    listaCircular->insertarListaCircularFinal("Archivo5", "Ruta5");
+    listaCircular->insertarListaCircularFinal("Archivo6", "Ruta6");
+    listaCircular->showCir();
+
+   
     std::cout<<"Fin de la aplicacion :) \n";
     return EXIT_SUCCESS;
 }

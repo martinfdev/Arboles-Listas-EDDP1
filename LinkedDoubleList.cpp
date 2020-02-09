@@ -10,7 +10,6 @@
 LinkedDoubleList::LinkedDoubleList() {
 }
 
-
 void LinkedDoubleList::insertarInicio(Nodo* n, char caracter) {
     Nodo* aux = new Nodo(caracter);
     
@@ -87,7 +86,6 @@ void LinkedDoubleList::borrarFinal() {
     borrarNodo(ultimo);
 }
 
-
 LinkedDoubleList::Nodo* LinkedDoubleList::buscar(char caracter) {
     if (isEmpty()) {
         std::cout<<"Lista vacia\n";
@@ -125,9 +123,6 @@ void LinkedDoubleList::show() {
         std::cout<<"\n";
     }
 }
-
-
-
 
 LinkedDoubleList::~LinkedDoubleList() {
 }
