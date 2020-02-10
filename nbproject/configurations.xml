@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>CrearArchivo.h</itemPath>
+      <itemPath>Fichero.h</itemPath>
       <itemPath>LinkedDoubleList.h</itemPath>
       <itemPath>LinkedList.h</itemPath>
       <itemPath>Menu.h</itemPath>
@@ -18,7 +18,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>CrearArchivo.cpp</itemPath>
+      <itemPath>Fichero.cpp</itemPath>
       <itemPath>LinkedDoubleList.cpp</itemPath>
       <itemPath>LinkedList.cpp</itemPath>
       <itemPath>Menu.cpp</itemPath>
@@ -48,9 +48,9 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="CrearArchivo.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Fichero.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="CrearArchivo.h" ex="false" tool="3" flavor2="0">
+      <item path="Fichero.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="LinkedDoubleList.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -95,9 +95,9 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="CrearArchivo.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Fichero.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="CrearArchivo.h" ex="false" tool="3" flavor2="0">
+      <item path="Fichero.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="LinkedDoubleList.cpp" ex="false" tool="1" flavor2="0">
       </item>

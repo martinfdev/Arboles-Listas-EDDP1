@@ -12,6 +12,7 @@
 #include "LinkedList.h"
 #include "Stack.h"
 #include <string>
+#include "Fichero.h"
 
 /*
  * 
@@ -98,6 +99,10 @@ int main(int argc, char** argv) {
     listaOrdenada->insertarListaSimpleOrdenada("e", "e", true);
     
     listaOrdenada->showSimple();
+    
+    Fichero* file = new Fichero();
+    file->crearFichero("Prueba");
+    
 
     std::cout << "Fin de la aplicacion :) \n";
     return EXIT_SUCCESS;

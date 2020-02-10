@@ -1,5 +1,5 @@
 build/Debug/GNU-Linux/main.o: main.cpp Menu.h LinkedDoubleList.h \
- LinkedList.h Stack.h NodoPila.h
+ LinkedList.h Stack.h NodoPila.h Fichero.h
 
 Menu.h:
 
@@ -10,3 +10,5 @@ LinkedList.h:
 Stack.h:
 
 NodoPila.h:
+
+Fichero.h:
