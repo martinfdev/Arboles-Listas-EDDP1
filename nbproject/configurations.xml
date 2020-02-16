@@ -7,9 +7,9 @@
       <itemPath>Fichero.h</itemPath>
       <itemPath>LinkedDoubleList.h</itemPath>
       <itemPath>LinkedList.h</itemPath>
-      <itemPath>Menu.h</itemPath>
       <itemPath>NodoPila.h</itemPath>
       <itemPath>Stack.h</itemPath>
+      <itemPath>Ventanas.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -21,9 +21,9 @@
       <itemPath>Fichero.cpp</itemPath>
       <itemPath>LinkedDoubleList.cpp</itemPath>
       <itemPath>LinkedList.cpp</itemPath>
-      <itemPath>Menu.cpp</itemPath>
       <itemPath>NodoPila.cpp</itemPath>
       <itemPath>Stack.cpp</itemPath>
+      <itemPath>Ventanas.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -47,6 +47,9 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <commandLine>-l</commandLine>
+        </ccTool>
       </compileType>
       <item path="Fichero.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -60,10 +63,6 @@
       </item>
       <item path="LinkedList.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Menu.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Menu.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="NodoPila.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="NodoPila.h" ex="false" tool="3" flavor2="0">
@@ -71,6 +70,10 @@
       <item path="Stack.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ventanas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ventanas.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -107,10 +110,6 @@
       </item>
       <item path="LinkedList.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Menu.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Menu.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="NodoPila.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="NodoPila.h" ex="false" tool="3" flavor2="0">
@@ -118,6 +117,10 @@
       <item path="Stack.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ventanas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ventanas.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

@@ -38,9 +38,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/Fichero.o \
 	${OBJECTDIR}/LinkedDoubleList.o \
 	${OBJECTDIR}/LinkedList.o \
-	${OBJECTDIR}/Menu.o \
 	${OBJECTDIR}/NodoPila.o \
 	${OBJECTDIR}/Stack.o \
+	${OBJECTDIR}/Ventanas.o \
 	${OBJECTDIR}/main.o
 
 
@@ -48,8 +48,8 @@ OBJECTFILES= \
 CFLAGS=
 
 # CC Compiler Flags
-CCFLAGS=
-CXXFLAGS=
+CCFLAGS=-l
+CXXFLAGS=-l
 
 # Fortran Compiler Flags
 FFLAGS=
@@ -83,11 +83,6 @@ ${OBJECTDIR}/LinkedList.o: LinkedList.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/LinkedList.o LinkedList.cpp
 
-${OBJECTDIR}/Menu.o: Menu.cpp
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Menu.o Menu.cpp
-
 ${OBJECTDIR}/NodoPila.o: NodoPila.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -97,6 +92,11 @@ ${OBJECTDIR}/Stack.o: Stack.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Stack.o Stack.cpp
+
+${OBJECTDIR}/Ventanas.o: Ventanas.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ventanas.o Ventanas.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
