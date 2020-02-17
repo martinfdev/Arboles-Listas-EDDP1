@@ -48,8 +48,8 @@ OBJECTFILES= \
 CFLAGS=
 
 # CC Compiler Flags
-CCFLAGS=-l
-CXXFLAGS=-l
+CCFLAGS=-lncurses -lmenu
+CXXFLAGS=-lncurses -lmenu
 
 # Fortran Compiler Flags
 FFLAGS=

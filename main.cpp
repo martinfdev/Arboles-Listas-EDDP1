@@ -9,13 +9,15 @@
 #include "LinkedDoubleList.h"
 #include "LinkedList.h"
 #include "Stack.h"
+#include "Ventanas.h"
 
 /*
  * 
  */
 int main(int argc, char **argv)
 {
-       
+       Ventanas* menu = new Ventanas();
+       menu->menu(); 
     //    LinkedDoubleList* listadoble = new LinkedDoubleList();
     //    listadoble->insertarPrimero('0');
     //    listadoble->insertarPrimero('1');

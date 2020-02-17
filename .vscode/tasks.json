@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "main.cpp",
-                "Menu.h",
-                "Menu.cpp",
+                "Ventanas.h",
+                "Ventanas.cpp",
                 "-l",
                 "ncurses",
                 "-l",

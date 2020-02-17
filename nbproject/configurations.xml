@@ -48,7 +48,7 @@
       </toolsSet>
       <compileType>
         <ccTool>
-          <commandLine>-l</commandLine>
+          <commandLine>-lncurses -lmenu</commandLine>
         </ccTool>
       </compileType>
       <item path="Fichero.cpp" ex="false" tool="1" flavor2="0">
