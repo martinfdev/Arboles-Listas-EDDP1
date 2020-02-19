@@ -5,11 +5,13 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Fichero.h</itemPath>
+      <itemPath>Graphviz.h</itemPath>
+      <itemPath>Init.h</itemPath>
       <itemPath>LinkedDoubleList.h</itemPath>
       <itemPath>LinkedList.h</itemPath>
       <itemPath>NodoPila.h</itemPath>
       <itemPath>Stack.h</itemPath>
-      <itemPath>Ventanas.h</itemPath>
+      <itemPath>Ventana.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -19,11 +21,13 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Fichero.cpp</itemPath>
+      <itemPath>Graphviz.cpp</itemPath>
+      <itemPath>Init.cpp</itemPath>
       <itemPath>LinkedDoubleList.cpp</itemPath>
       <itemPath>LinkedList.cpp</itemPath>
       <itemPath>NodoPila.cpp</itemPath>
       <itemPath>Stack.cpp</itemPath>
-      <itemPath>Ventanas.cpp</itemPath>
+      <itemPath>Ventana.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -55,6 +59,14 @@
       </item>
       <item path="Fichero.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Graphviz.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graphviz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Init.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Init.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="LinkedDoubleList.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="LinkedDoubleList.h" ex="false" tool="3" flavor2="0">
@@ -71,9 +83,9 @@
       </item>
       <item path="Stack.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Ventanas.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Ventana.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Ventanas.h" ex="false" tool="3" flavor2="0">
+      <item path="Ventana.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -102,6 +114,14 @@
       </item>
       <item path="Fichero.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Graphviz.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graphviz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Init.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Init.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="LinkedDoubleList.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="LinkedDoubleList.h" ex="false" tool="3" flavor2="0">
@@ -118,9 +138,9 @@
       </item>
       <item path="Stack.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Ventanas.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Ventana.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Ventanas.h" ex="false" tool="3" flavor2="0">
+      <item path="Ventana.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

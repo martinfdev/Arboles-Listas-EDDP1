@@ -8,12 +8,14 @@
             "args": [
                 "-g",
                 "main.cpp",
-                "Ventanas.h",
-                "Ventanas.cpp",
+                "Ventana.h",
+                "Ventana.cpp",
+                "LinkedDoubleList.cpp",
+                "LinkedDoubleList.h",
+                "Init.cpp",
+                "Init.h",
                 "-l",
                 "ncurses",
-                "-l",
-                "panel",
                 "-l",
                 "menu"
             ],

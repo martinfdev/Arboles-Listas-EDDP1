@@ -36,11 +36,13 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Fichero.o \
+	${OBJECTDIR}/Graphviz.o \
+	${OBJECTDIR}/Init.o \
 	${OBJECTDIR}/LinkedDoubleList.o \
 	${OBJECTDIR}/LinkedList.o \
 	${OBJECTDIR}/NodoPila.o \
 	${OBJECTDIR}/Stack.o \
-	${OBJECTDIR}/Ventanas.o \
+	${OBJECTDIR}/Ventana.o \
 	${OBJECTDIR}/main.o
 
 
@@ -73,6 +75,16 @@ ${OBJECTDIR}/Fichero.o: Fichero.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Fichero.o Fichero.cpp
 
+${OBJECTDIR}/Graphviz.o: Graphviz.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Graphviz.o Graphviz.cpp
+
+${OBJECTDIR}/Init.o: Init.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Init.o Init.cpp
+
 ${OBJECTDIR}/LinkedDoubleList.o: LinkedDoubleList.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -93,10 +105,10 @@ ${OBJECTDIR}/Stack.o: Stack.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Stack.o Stack.cpp
 
-${OBJECTDIR}/Ventanas.o: Ventanas.cpp
+${OBJECTDIR}/Ventana.o: Ventana.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ventanas.o Ventanas.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ventana.o Ventana.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
